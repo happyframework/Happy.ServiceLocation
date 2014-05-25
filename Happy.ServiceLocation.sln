@@ -1,9 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Happy.ServiceLocation", "Happy.ServiceLocation\Happy.ServiceLocation.csproj", "{97D5F1D0-5043-4F54-8413-F6EAF555740D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Happy.ServiceLocation.Autofac", "Happy.ServiceLocation.Autofac\Happy.ServiceLocation.Autofac.csproj", "{079F8FE2-8343-4171-9AA0-C561E009A50B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1306E10B-197D-483E-B51E-4978E2F278DD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,10 @@ Global
 		{97D5F1D0-5043-4F54-8413-F6EAF555740D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D5F1D0-5043-4F54-8413-F6EAF555740D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97D5F1D0-5043-4F54-8413-F6EAF555740D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079F8FE2-8343-4171-9AA0-C561E009A50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079F8FE2-8343-4171-9AA0-C561E009A50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079F8FE2-8343-4171-9AA0-C561E009A50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079F8FE2-8343-4171-9AA0-C561E009A50B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
